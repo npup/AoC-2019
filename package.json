@@ -1,0 +1,25 @@
+{
+  "name": "AoC-2019",
+  "version": "1.0.0",
+  "description": "advent of code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./run/index.js solution",
+    "test": "node ./run/index.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npup/AoC-2019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npup/AoC-2019/issues"
+  },
+  "homepage": "https://github.com/npup/AoC-2019#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
