@@ -1,20 +1,25 @@
 const { assert } = require("chai");
-const applySolution = require("./solution");
+const { solver, solver2 } = require("./solution");
 
 describe("assignment X", () => {
 
     describe("level 1", () => {
-        it("should xxx", () => {
-            const result = applySolution();
-            assert.fail(result, null);
+
+        it("should do x", () => {
+            const result = solver();
+            assert.fail(result);
         });
+
     });
 
 /*
     describe("level 2", () => {
-        it("should xxx", () => {
-            assert.fail();
+
+        it("should do x", () => {
+            const result = solver2();
+            assert.fail(result);
         });
+
     });
 */
 
