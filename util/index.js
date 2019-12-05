@@ -12,8 +12,16 @@ const getInputRows = () => {
 };
 
 const getCsvNumbers = () => {
+    return getCsvStrings().map(Number);
+};
+
+const getCsvStrings = () => {
     const input = getInput();
-    return input.split(",").map(Number);
+    return input.split(",");
+};
+
+const splitRow = (row, sep = /\s*,\s*/) => {
+  return row.split(sep);
 };
 
 const showResult = (result, label = "part 1") => {
@@ -30,6 +38,8 @@ module.exports = {
     getInput,
     getInputRows,
     getCsvNumbers,
+    getCsvStrings,
+    splitRow,
     showResult,
     addNumbers
 };
